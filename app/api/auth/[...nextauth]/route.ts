@@ -27,5 +27,4 @@ const handler = NextAuth(authOptions);
 
 export default handler;
 
-export const GET = handler;
-export const POST = handler;
+export const getServerSideProps = handler;
